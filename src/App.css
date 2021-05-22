@@ -410,6 +410,9 @@ h5{
   margin-left: 2px;
   margin-right: 2px;
 } 
+.fa-google{
+  color: #1876f2;
+}
 .cartas .fa-github:hover,  .cartas .fa-google:hover{
   transform: scale(1.1);
 }
