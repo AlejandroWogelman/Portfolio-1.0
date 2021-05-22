@@ -1,38 +1,442 @@
-.App {
+body{
+  overflow-y: scroll;
+  background-color:rgb(240,242,245);
+}
+
+/*HEADER*/
+.background-header{
+  
+  background-image: url('./assets/rear-view-of-programmer-working-all-night-long.jpg');
+  height: 65vh;
+  width: 90%;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  border-radius: 10px;
+  text-align: center;
+}
+@media screen and  (max-width: 430px){
+  .background-header{
+   
+    background-image: url('./assets/rear-view-of-programmer-working-all-night-long.jpg');
+    height: 40vh;
+    width: 100%;
+    
+  }
+}
+
+.caja-perfil{
+ position: absolute;
+ bottom: 0%;
+ display: flex;
+ justify-content: center;
+}
+
+img{
+  height: 170px;
+  width: 170px;
+  position: relative;
+  justify-content: center;
+  border-radius: 100%;
+  bottom: -15px;
+  border: 3.5px solid rgb(250, 247, 247);
+}
+
+/*Web developer effect*/
+.developer{
+  margin-top: 20px;
+  align-items: center;
+  display: relative;
+  height: 50px;
+  overflow:hidden;
+}
+
+h1{
+  
+  color: rgb(139, 0, 7);
+  text-shadow: 0 0 5px white;
+  font-size: 40px;
+  font-weight: 700;
+  animation: subir infinite 7s;
+}
+
+@keyframes subir {
+  0%{margin-top: 0;}
+  45%{margin-top: 0;}
+
+  55%{margin-top: -53px ;}
+  90%{margin-top: -53px;}
+
+}
+
+.titulo-2{
+  color: rgb(139, 0, 7);
+  text-shadow: 0 0 5px white;
+  font-size: 40px;
+  font-weight: 700;
+}
+
+@media screen and (max-width: 650px) {
+  .titulo-2{
+    font-size: 30px;
+  }
+  h1{
+    font-size: 35px;
+  }
+}
+@media screen and (max-width: 330px) {
+  .titulo-2{
+    font-size: 25px;
+  }
+  h1{
+    font-size: 30px;
+  }
+}
+
+/*Fin web developer effect*/
+
+.name{
+  font-weight:bolder;
+  margin-top: 2rem;
+  text-align: center;
+  color: #050505;
+}
+
+.presentacion{
+  color: #1876f2 ;
+  font-weight: 600;
+  animation: tamaño infinite 2s;
+}
+@keyframes tamaño {
+ 
+  50%{text-decoration: none;}
+}
+
+
+.DisplayPresentacion{
+  padding: 15px;
+  display: none;
+  border: rgba(96, 133, 255, 0.863) 2px solid;
+  border-radius: 10px;
+  background-color: rgba(24, 118, 242, 0.11);
+  color: rgb(24, 118, 242);
+  width: 70%;
+  margin: 0 auto;
+  font-weight: 400;
+  box-shadow:  0 0 5px rgb(82, 118, 235);
+}
+
+.background-superior{
+  background-color: rgb(255, 255, 255);
+  border-radius: 4px;
+}
+
+/*Fin de Header*/
+
+
+
+
+
+/*Nav*/
+li{
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+@media screen and (max-width: 535px) {
+  ul{
+      flex-direction: column;
+      justify-content: center;
+  }
+
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.navSuperior{
+  text-decoration: none;
+  font-weight: 500;
+}
+.navSuperior .span-nav{
+  color: rgb(109,111,115);
+  font-size: 15px;
+  padding: 15px;
+}
+.span-nav{
+  color: rgb(109,111,115);
+  font-size: 15px;
+  padding: 15px;
+}
+
+.navSuperior :hover{
+  cursor: pointer;
+  background-color: rgba(128, 128, 128, 0.13) ;
+  border-radius: 6px;
+}
+
+
+.informacion, .proyectos, .contacto{
+  text-decoration: none;
+}
+.informacion .span-nav, .contacto .span-nav, .proyectos .span-nav {
+  font-size: 15px;
+  font-weight: 500;
+  color: #237cf3 ;
+  padding: 15px;
+  box-shadow: 0px 3px #1876f2;
+}
+/*----------*/
+
+
+
+
+/*fin nav*/
+
+
+
+
+
+
+
+
+/*Informacion*/
+
+.caja-general-info{
+  height: 500px;
+}
+
+
+.caja-informacion{
+  
+  border-left: solid 1px;
+  border-right: solid 1px;
+  border-color: rgba(128, 128, 128, 0.24);
+  border-radius: 10px;
+  width: 70vw;
+  height:min-content;
+  box-shadow: 0px -1px rgba(128, 128, 128, 0.158),  0px 1px rgba(128, 128, 128, 0.158) ;
+  background-color: #ffffff;
+}
+@media screen and (max-width: 400px) {
+  .caja-informacion{
+    width: 90vw;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+
+.div-categorias{
+  text-decoration: none;
+}
+
+
+.div-categorias :hover{
+  cursor: pointer;
+  background-color: rgba(128, 128, 128, 0.13) ;
+  border-radius: 6px;
+}
+
+
+
+
+
+/*backsgrounds seleccionados/informacion*/
+.estudios, .hobbies, .general{
+  text-decoration: none;
+}
+.estudios h6, .hobbies h6, .general h6{
+  cursor: pointer;
+  background-color: #e7f3ff;
+  border-radius: 6px;
+  color: rgb(24, 118, 242)
+}
+@media screen and (max-width: 768px){
+  .col-sm-12 h6{
+    text-align: center;
+  }
+  .col-sm-12{
+    border-bottom: rgb(189, 187, 184) solid 1px;
+  }
+}
+
+/*-----------*/
+
+
+
+h6{
+  font-size: 16px;
+  padding: 8px 10px;
+  color:#4f545fe8 
+}
+
+
+h4{
+  font-size: 19px;
+  padding: 12px 10px;
+  font-weight: bold;
+  color: rgb(5,5,5);
+}
+
+h5{
+  font-size: 15px;
+  color: rgb(5,5,5);
+  font-weight: normal;
+}
+
+/*svg 👇*/
+.fas, .far{
+  color: #727b87;
+  font-size: 1.6em;
+}
+
+.alert{
+  font-size: 15px;
+  font-weight: 600;
+}
+/*Fin Informacion*/
+
+
+
+
+/*Contacto*/
+.caja-formulario{
+  height:max-content;
+  margin-top: 15px;
+  text-align: center;
+  height: 550px;
+}
+.caja-formulario div{
+  border-radius: 10px;
+}
+
+.col-contactos, .formulario{
+  background-color: rgba(255, 255, 255, 0.95);
+  box-shadow: 0px 0px 4px rgba(2, 112, 255, 0.616);
+  padding: 20px;
+  height: 75%;
+  margin: 0 auto;
+  
+}
+
+
+.col-contactos{
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: space-around;
+}
+
+.fa-facebook, .fa-linkedin, .fa-github{
+  font-size: 60px;
+  text-decoration: none;
+}
+
+
+.fa-linkedin{
+  color: #0a66c2;
+}
+.fa-github{
+  color: #24292e;
+}
+
+@media screen and (max-width: 767px) {
+  .caja-links{
+    display: inline-flex;
+  }
+  .col-contactos{
+    height: min-content;
+    flex-direction: row;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+  .fa-facebook, .fa-linkedin, .fa-github{
+    font-size: 60px;
+    margin: 5px;
+    padding: 0%;
+  }
+  .caja-formulario{
+    width: 94%;
+    margin: 0 auto;
+    margin-top: 15px;
+    height: min-content;
+  }
+}
+
+.col-contactos :hover{
+  transform: scale(1.1);
+}
+
+#detalles{
+  height: max-content;
+  resize: none;
+}
+
+.alert-form{
+  font-size: 14px;
+  color: red;
+  font-style: oblique;
+}
+
+
+
+
+/*proyectos*/
+.caja-cards{
+  width: 90%;
+  margin: 0 auto;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.cartas{
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  text-align: center;
+  margin: 5px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  border: rgba(128, 128, 128, 0.24) 1px solid;
+  background-color: #ffffff;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+
+.title-card{
+  margin-top: 5px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #050505;
+}
+
+.cartas .fa-github, .cartas .fa-google{
+  font-size: 35px;
+  padding: 2px;
+  margin-left: 2px;
+  margin-right: 2px;
+} 
+.cartas .fa-github:hover,  .cartas .fa-google:hover{
+  transform: scale(1.1);
+}
+
+@media screen and (max-width: 520px) {
+  .caja-cards{
+    width: 95%;
   }
-  to {
-    transform: rotate(360deg);
+  .cartas{
+    width: 75%;
   }
+}
+
+@media screen and (max-width: 400px) {
+  .caja-cards{
+    width: 100%;
+  }
+  .cartas{
+    width: 95%;
+  }
+}
+
+.msg-enviado{
+  margin-top: 10px;
+  display: inline-block;
+  padding: 10px 5px;
+  background: rgba(46, 180, 19, 0.719);
+  width: 100%;
+  border-radius: 4px;
 }
