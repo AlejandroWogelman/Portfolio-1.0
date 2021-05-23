@@ -25,6 +25,7 @@ body{
   }
 }
 
+
 .caja-perfil{
  position: absolute;
  bottom: 0%;
@@ -175,6 +176,7 @@ li{
 .informacion, .proyectos, .contacto{
   text-decoration: none;
 }
+
 .informacion .span-nav, .contacto .span-nav, .proyectos .span-nav {
   font-size: 15px;
   font-weight: 500;
@@ -183,6 +185,14 @@ li{
   box-shadow: 0px 3px #1876f2;
 }
 /*----------*/
+
+@media screen and (max-width:535px) {
+  .order{
+    order: -1;
+  }
+}
+
+
 
 
 

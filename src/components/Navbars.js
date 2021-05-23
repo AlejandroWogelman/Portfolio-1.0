@@ -45,7 +45,7 @@ const Navbars = () => {
                                 </Link>
             </li>
 
-            <li className="p-3"><Link   to="/informacion"
+            <li className="p-3 order"><Link   to="/informacion"
                                         onClick={()=>handleBack('informacion')} 
                                         className={state.informacion? "informacion": "navSuperior"}>
                                     <span className="span-nav">Informacion</span>

@@ -18,8 +18,8 @@ const Routes =()=>{
                 
                 <Route path="/proyectos" component={Proyectos}/>
                 <Route path="/contacto" component={Contacto}/>
-            </Switch>
                 <Redirect exact to="/"/>
+            </Switch>
 
         </Router>
 
