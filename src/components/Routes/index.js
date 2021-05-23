@@ -1,4 +1,4 @@
-import {BrowserRouter as Router, Redirect, Route, Switch, useHistory, } from 'react-router-dom'
+import {BrowserRouter as Router, Redirect, Route, Switch, useHistory } from 'react-router-dom'
 import Contacto from '../../Pages/Contacto';
 import Informacion from '../../Pages/Informacion';
 import Proyectos from '../../Pages/Proyectos';
@@ -10,8 +10,7 @@ const Routes =()=>{
     console.log(history)
     
     return(
-
-        <Router>
+        <Router  basename={process.env.PUBLIC_URL}>
                 <Route path="/" component={Headers}/>
             <Switch>
                 <Route path="/informacion" component={Informacion}/>
