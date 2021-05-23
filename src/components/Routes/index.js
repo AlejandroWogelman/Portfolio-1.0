@@ -6,7 +6,8 @@ import { Headers } from '../Headers'
 
 const Routes =()=>{
     
-    
+    const history = useHistory()
+    console.log(history)
     
     return(
 
@@ -17,8 +18,8 @@ const Routes =()=>{
                 
                 <Route path="/proyectos" component={Proyectos}/>
                 <Route path="/contacto" component={Contacto}/>
-                <Redirect to="/"/>
             </Switch>
+                <Redirect exact to="/"/>
 
         </Router>
 
