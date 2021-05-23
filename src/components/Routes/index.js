@@ -11,12 +11,12 @@ const Routes =()=>{
     
     return(
         <Router  basename={process.env.PUBLIC_URL}>
-                <Route path="/" component={Headers}/>
+                <Route path={process.env.PUBLIC_URL + '/'} component={Headers}/>
             <Switch>
-                <Route path="/informacion" component={Informacion}/>
+                <Route path={process.env.PUBLIC_URL + "/informacion"} component={Informacion}/>
                 
-                <Route path="/proyectos" component={Proyectos}/>
-                <Route path="/contacto" component={Contacto}/>
+                <Route path={process.env.PUBLIC_URL + "/proyectos"} component={Proyectos}/>
+                <Route path={process.env.PUBLIC_URL + "/contacto"} component={Contacto}/>
             </Switch>
                 <Redirect exact to="/"/>
 
