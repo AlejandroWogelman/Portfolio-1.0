@@ -11,7 +11,7 @@ const Routes =()=>{
     return(
 
         <Router>
-            <Headers/>
+                <Route path="/" component={Headers}/>
             <Switch>
                 <Route path="/informacion" component={Informacion}/>
                 
