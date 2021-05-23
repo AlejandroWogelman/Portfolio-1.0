@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/static/css/main.68202a46.chunk.css",
+    "main.js": "/static/js/main.286de8cd.chunk.js",
+    "main.js.map": "/static/js/main.286de8cd.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.710893ab.js",
+    "runtime-main.js.map": "/static/js/runtime-main.710893ab.js.map",
+    "static/js/2.b01cc52c.chunk.js": "/static/js/2.b01cc52c.chunk.js",
+    "static/js/2.b01cc52c.chunk.js.map": "/static/js/2.b01cc52c.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.68202a46.chunk.css.map": "/static/css/main.68202a46.chunk.css.map",
+    "static/js/2.b01cc52c.chunk.js.LICENSE.txt": "/static/js/2.b01cc52c.chunk.js.LICENSE.txt",
+    "static/media/perfil.99531d39.jpg": "/static/media/perfil.99531d39.jpg",
+    "static/media/App.css": "/static/media/rear-view-of-programmer-working-all-night-long.adef3567.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.710893ab.js",
+    "static/js/2.b01cc52c.chunk.js",
+    "static/css/main.68202a46.chunk.css",
+    "static/js/main.286de8cd.chunk.js"
+  ]
+}

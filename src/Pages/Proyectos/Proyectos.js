@@ -23,7 +23,7 @@ const Proyectos = memo(() => {
 
     return ( 
         <>
-            <Row className="caja-cards mt-2" style={{height:"620px"}}>
+            <Row className="caja-cards mt-2" >
                 {state.length>1 && 
                 
                     state.map(({name, html_url, description, id, homepage })=>{

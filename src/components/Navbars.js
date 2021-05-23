@@ -35,7 +35,7 @@ const Navbars = () => {
     }, [history])
     
     return (
-        <Container className="caja-cards">
+        <Container>
         <ul className="nav justify-content-center p-0">
 
             <li className="p-3"><Link   to="/proyectos" 
