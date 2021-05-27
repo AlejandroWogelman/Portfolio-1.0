@@ -26,11 +26,13 @@ const Navbars = () => {
         //actual palabra de history que está seleccionada de lo contrario al recargar se subrayaba informacion
         //y se mostraba la ultima pestaña vista (proyecto, contacto, informacion)
         //anterior -> setState({informacion}:true})
+        
         if(history.location.pathname.length>1){
             const newString=history.location.pathname.substring(1)
             
             setState({[newString]:true})
         }
+          
         
     }, [history])
     

@@ -44,7 +44,7 @@ const Informacion = () => {
     
     
     return ( 
-        <Container className=" p-3 justify-content-center d-flex caja-general-info">
+        <Container className=" justify-content-center d-flex caja-general-info">
             
             <Row className="caja-informacion">
                 

@@ -21,7 +21,7 @@ export const Headers =({history}) => {
     }
  
     return (
-        <Container fluid className="background-superior">
+        <Container className="background-superior">
             
 
             <header  className="d-flex justify-content-center header">

@@ -6,7 +6,7 @@ import Routes from './components/Routes';
 
 function App() {
   return (
-    <Container fluid>
+    <Container className="container-general">
       <Routes/>
     </Container>
   );
