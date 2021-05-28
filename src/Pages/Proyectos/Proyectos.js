@@ -28,7 +28,7 @@ const Proyectos = memo(() => {
                 
                     state.map(({name, html_url, description, id, homepage })=>{
                         return(
-                        <div className="cartas row" key={id}>
+                        <div className="cartas row animate__animated animate__fadeInUp" key={id}>
                             
                                 <h3 className="title-card">{name} </h3>
                             

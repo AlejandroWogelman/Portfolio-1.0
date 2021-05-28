@@ -28,10 +28,10 @@ const Contacto = () => {
     
     return ( 
 
-        <Container>
-        <Row className="caja-formulario justify-content-center">
+        <Container >
+        <Row className="caja-formulario justify-content-center ">
 
-            <div  className="formulario col-md-7 col-sm-12">
+            <div  className="formulario col-md-7 col-sm-12  animate__animated animate__pulse">
             
                 <Form onSubmit={handleSubmit(handleInputs)} ref={refForm}>
                 

@@ -46,7 +46,7 @@ const Informacion = () => {
     return ( 
         <Container className=" justify-content-center d-flex caja-general-info">
             
-            <Row className="caja-informacion">
+            <Row className="caja-informacion animate__fadeInLeft animate__animated">
                 
                 <div className="p-1 border-end col-md-4 col-lg-5 col-sm-12" >
                    
