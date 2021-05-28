@@ -250,7 +250,7 @@ li{
   -ms-border-radius: 10px;
   -o-border-radius: 10px;
 
-  backdrop-filter: blur(20px) brightness(110%) ;
+  backdrop-filter: blur(20px) brightness(200%) ;
 }
 @media screen and (max-width: 400px) {
   .caja-informacion{
@@ -327,8 +327,9 @@ h5{
 
 /*svg 👇*/
 .fas, .far{
-  color: #cecece;
+  color: #ffffff;
   font-size: 1.6em;
+  text-shadow: 1px 1px 3px #050505;
 }
 
 .alert{
@@ -359,7 +360,7 @@ h5{
   padding: 20px;
   height: 75%;
   margin: 0 auto;
-  backdrop-filter: blur(50px) brightness(110%);
+  backdrop-filter: blur(50px) brightness(200%);
   
 }
 
@@ -463,8 +464,8 @@ h5{
   border-radius: 10px;
   box-shadow: 0 0 15px rgba(2, 2, 2, 0.164),  0px 1px rgba(128, 128, 128, 0.158) ;
   background-color: rgba(255, 255, 255, 0.3);
-  backdrop-filter: blur(30px) brightness(115%) ;
-  -webkit-backdrop-filter: blur(40px) brightness(110%);
+  backdrop-filter: blur(30px) brightness(200%) ;
+  -webkit-backdrop-filter: blur(30px) brightness(200%);
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
   -ms-border-radius: 10px;
